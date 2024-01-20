@@ -1,7 +1,7 @@
 import pyautogui
 from pynput.keyboard import Listener, Key
 
-pyautogui.PAUSE = 0.01 
+pyautogui.PAUSE = 0.01
 
 def on_press(key):
     if key == Key.space:
